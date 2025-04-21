@@ -22,7 +22,8 @@ import {
   Info as InfoIcon, 
   School as SchoolIcon,
   ContactMail as ContactIcon,
-  Language as LanguageIcon
+  Language as LanguageIcon,
+  FlightTakeoff as FlightTakeoffIcon
 } from "@mui/icons-material";
 import { Link as RouterLink, useLocation } from "react-router-dom";
 import { useState } from "react";
@@ -41,6 +42,7 @@ const Navbar = () => {
     { text: "Ana Sayfa", path: "/", icon: <HomeIcon /> },
     { text: "Hakkımızda", path: "/about", icon: <InfoIcon /> },
     { text: "Kurslarımız", path: "/courses", icon: <SchoolIcon /> },
+    { text: "Yurtdışı Eğitim", path: "/yurtdisi-egitim", icon: <FlightTakeoffIcon /> },
     { text: "İletişim", path: "/contact", icon: <ContactIcon /> },
   ];
 
