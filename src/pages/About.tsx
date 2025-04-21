@@ -4,6 +4,7 @@ import SEO from "../components/SEO";
 import classroomImage from "../assets/images/IMG_8505.jpg";
 import studentsImage from "../assets/images/IMG_8510.jpg";
 import teacherImage from "../assets/images/IMG_8507.jpg";
+import expertTeacherImage from "../assets/images/IMG_8513.jpg";
 
 const About = () => {
   return (
@@ -85,7 +86,7 @@ const About = () => {
             <Box sx={{ flex: { xs: "100%", md: "1" }, textAlign: "center" }}>
               <Box
                 component="img"
-                src={teacherImage}
+                src={expertTeacherImage}
                 sx={{
                   width: "100%",
                   height: 200,
