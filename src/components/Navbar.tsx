@@ -62,7 +62,7 @@ const Navbar = () => {
         >
           <LanguageIcon sx={{ fontSize: 40, color: theme.palette.primary.main, mb: 1 }} />
           <Typography variant="h6" component="div" fontWeight="bold">
-            Dil Okulu
+            Heart of English
           </Typography>
         </Box>
       </Box>
@@ -157,7 +157,7 @@ const Navbar = () => {
                   textFillColor: "transparent",
                 }}
               >
-                Dil Okulu
+                Heart of English
               </Typography>
             </Box>
           </Fade>
