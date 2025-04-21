@@ -16,8 +16,12 @@ import LanguageIcon from '@mui/icons-material/Language';
 import SchoolIcon from '@mui/icons-material/School';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import classroomImage from "../assets/images/classroom.jpg";
-import studentsImage from "../assets/images/students.jpg";
-import teacherImage from "../assets/images/teacher.jpg";
+import studentsImage from "../assets/images/IMG_8513.jpg";
+import teacherImage from "../assets/images/IMG_8508.jpg";
+import officeImage from "../assets/images/office-hoe.jpeg";
+import campusImage1 from "../assets/images/IMG_8510.jpg";
+import campusImage2 from "../assets/images/IMG_8507.jpg";
+import campusImage3 from "../assets/images/IMG_8514.jpg";
 import StudentCounter from "../components/StudentCounter";
 
 const Home = () => {
@@ -29,7 +33,7 @@ const Home = () => {
       {/* Hero Section */}
       <Box
         sx={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${classroomImage})`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${officeImage})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundAttachment: "fixed",
@@ -108,10 +112,39 @@ const Home = () => {
         </Container>
       </Box>
 
-      {/* Student Counter Section */}
-      <Container>
-        <StudentCounter />
-      </Container>
+      {/* World Map Visual Section */}
+      <Box 
+        sx={{
+          position: 'relative',
+          py: 6,
+          backgroundColor: 'background.paper',
+          overflow: 'hidden'
+        }}
+      >
+        <Box
+          sx={{
+            position: 'absolute',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+            width: '100%',
+            height: '100%',
+            opacity: 0.07,
+            zIndex: 0,
+            '& img': {
+              width: '100%',
+              height: '100%',
+              objectFit: 'contain'
+            }
+          }}
+        >
+          <img src="/world_modified.svg" alt="World Map" />
+        </Box>
+        
+        <Container sx={{ position: 'relative', zIndex: 1 }}>
+          <StudentCounter />
+        </Container>
+      </Box>
 
       {/* Features Section */}
       <Container sx={{ py: 10 }}>
@@ -212,6 +245,56 @@ const Home = () => {
           </Fade>
         </Stack>
       </Container>
+      
+      {/* Image Gallery Section */}
+      <Box sx={{ bgcolor: 'background.paper', py: 8 }}>
+        <Container maxWidth="lg">
+          <Typography 
+            variant="h3" 
+            component="h2" 
+            textAlign="center" 
+            sx={{ 
+              mb: 6,
+              fontWeight: 600,
+            }}
+          >
+            Kampüsümüzden Görüntüler
+          </Typography>
+          
+          <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2 }}>
+            <Box sx={{ flexBasis: { xs: '100%', sm: 'calc(50% - 8px)', md: 'calc(33.333% - 11px)' } }}>
+              <Card sx={{ height: '100%' }}>
+                <CardMedia
+                  component="img"
+                  image={campusImage1}
+                  alt="Kampüs Görüntüsü 1"
+                  sx={{ height: 220, objectFit: 'cover' }}
+                />
+              </Card>
+            </Box>
+            <Box sx={{ flexBasis: { xs: '100%', sm: 'calc(50% - 8px)', md: 'calc(33.333% - 11px)' } }}>
+              <Card sx={{ height: '100%' }}>
+                <CardMedia
+                  component="img"
+                  image={campusImage2}
+                  alt="Kampüs Görüntüsü 2"
+                  sx={{ height: 220, objectFit: 'cover' }}
+                />
+              </Card>
+            </Box>
+            <Box sx={{ flexBasis: { xs: '100%', sm: 'calc(50% - 8px)', md: 'calc(33.333% - 11px)' } }}>
+              <Card sx={{ height: '100%' }}>
+                <CardMedia
+                  component="img"
+                  image={campusImage3}
+                  alt="Kampüs Görüntüsü 3"
+                  sx={{ height: 220, objectFit: 'cover' }}
+                />
+              </Card>
+            </Box>
+          </Box>
+        </Container>
+      </Box>
       
       {/* CTA Section */}
       <Box
