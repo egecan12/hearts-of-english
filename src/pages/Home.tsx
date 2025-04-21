@@ -18,6 +18,7 @@ import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import classroomImage from "../assets/images/classroom.jpg";
 import studentsImage from "../assets/images/students.jpg";
 import teacherImage from "../assets/images/teacher.jpg";
+import StudentCounter from "../components/StudentCounter";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -106,6 +107,11 @@ const Home = () => {
           </Fade>
         </Container>
       </Box>
+
+      {/* Student Counter Section */}
+      <Container>
+        <StudentCounter />
+      </Container>
 
       {/* Features Section */}
       <Container sx={{ py: 10 }}>
