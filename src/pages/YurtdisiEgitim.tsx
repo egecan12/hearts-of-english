@@ -122,18 +122,7 @@ const YurtdisiEgitim = () => {
                   style={{ width: "100%", height: "auto", maxHeight: "400px" }}
                 />
                 
-                <div style={{ marginTop: "20px" }}>
-                  <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "20px", flexWrap: "wrap" }}>
-                    <div style={{ display: "flex", alignItems: "center" }}>
-                      <div style={{ width: "20px", height: "20px", backgroundColor: "#4CAF50", marginRight: "8px" }}></div>
-                      <span>Anlaşmalı Ülkeler</span>
-                    </div>
-                    <div style={{ display: "flex", alignItems: "center" }}>
-                      <div style={{ width: "20px", height: "20px", backgroundColor: "#ccc", marginRight: "8px" }}></div>
-                      <span>Diğer Ülkeler</span>
-                    </div>
-                  </div>
-                </div>
+            
               </div>
               
               <Typography variant="h6" sx={{ mt: 4, fontWeight: 600, color: theme.palette.primary.main }}>
@@ -155,6 +144,23 @@ const YurtdisiEgitim = () => {
                 <strong>🇱🇻 Letonya</strong> - Uygun maliyetli Avrupa eğitimi ve AB diploması
               </Typography>
             </Paper>
+          </Box>
+        </Box>
+
+        <Box sx={{ mt: 8, textAlign: "center" }}>
+          <Typography variant="h5" gutterBottom sx={{ fontWeight: "bold" }}>
+            İletişim Bilgileri
+          </Typography>
+          <Box sx={{ mt: 4, display: "flex", flexWrap: "wrap", gap: 4 }}>
+            <Box sx={{ flex: { xs: "100%", sm: "1" }, textAlign: "center" }}>
+              <Typography variant="h6" gutterBottom>
+                Adres
+              </Typography>
+              <Typography color="text.secondary">
+                Hoşnudiye, Porsuk Blv No:74, 26170 Tepebaşı/Eskişehir, Türkiye
+              </Typography>
+            </Box>
+            {/* Other contact information can remain here */}
           </Box>
         </Box>
       </Container>

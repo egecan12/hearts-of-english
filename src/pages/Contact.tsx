@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Typography, Box, TextField, Button } from "@mui/material";
-import classroomImage from "../assets/images/IMG_8505.jpg";
+import officeImage from "../assets/images/office-hoe3.jpeg";
 
 const Contact = () => {
   return (
@@ -38,7 +38,7 @@ const Contact = () => {
         <Box sx={{ flex: { xs: "100%", md: "1" } }}>
           <Box
             component="img"
-            src={classroomImage}
+            src={officeImage}
             sx={{
               width: "100%",
               height: 400,
@@ -133,9 +133,8 @@ const Contact = () => {
               Adres
             </Typography>
             <Typography color="text.secondary">
-              Örnek Mahallesi, Örnek Sokak No:123
-              <br />
-              İstanbul, Türkiye
+            Hoşnudiye, Porsuk Blv No:74, 26170 Tepebaşı/Eskişehir, Türkiye {/* Updated address */}
+
             </Typography>
           </Box>
           <Box sx={{ flex: { xs: "100%", sm: "1" }, textAlign: "center" }}>
