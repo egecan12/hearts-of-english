@@ -116,88 +116,12 @@ const YurtdisiEgitim = () => {
               
               {/* World Map */}
               <div className="map-container" style={{ position: "relative" }}>
-                <svg
-                  viewBox="0 0 1000 500"
+                <img
+                  src="/world_modified.svg"
+                  alt="World Map"
                   style={{ width: "100%", height: "auto", maxHeight: "400px" }}
-                >
-                  {/* North America */}
-                  <path
-                    d="M180,150 L280,150 L280,220 L180,220 Z"
-                    fill={highlightedCountries.includes("usa") ? "#4CAF50" : "#ccc"}
-                    stroke="#fff"
-                    strokeWidth="2"
-                  />
-                  <text x="220" y="190" textAnchor="middle" fill="#fff" fontWeight="bold">USA</text>
-                  
-                  {/* South America */}
-                  <path
-                    d="M220,250 L280,250 L280,320 L220,320 Z"
-                    fill="#ccc"
-                    stroke="#fff"
-                    strokeWidth="2"
-                  />
-                  
-                  {/* Africa */}
-                  <path
-                    d="M450,200 L510,200 L510,300 L450,300 Z"
-                    fill="#ccc"
-                    stroke="#fff"
-                    strokeWidth="2"
-                  />
-                  
-                  {/* Western Europe */}
-                  <path
-                    d="M420,150 L450,150 L450,180 L420,180 Z"
-                    fill={highlightedCountries.includes("uk") ? "#4CAF50" : "#ccc"}
-                    stroke="#fff"
-                    strokeWidth="2"
-                  />
-                  <text x="435" y="170" textAnchor="middle" fill="#fff" fontWeight="bold" fontSize="8">UK</text>
-                  
-                  {/* France */}
-                  <path
-                    d="M430,185 L460,185 L460,210 L430,210 Z"
-                    fill={highlightedCountries.includes("france") ? "#4CAF50" : "#ccc"}
-                    stroke="#fff"
-                    strokeWidth="2"
-                  />
-                  <text x="445" y="200" textAnchor="middle" fill="#fff" fontWeight="bold" fontSize="8">FR</text>
-                  
-                  {/* Germany */}
-                  <path
-                    d="M460,160 L490,160 L490,185 L460,185 Z"
-                    fill={highlightedCountries.includes("germany") ? "#4CAF50" : "#ccc"}
-                    stroke="#fff"
-                    strokeWidth="2"
-                  />
-                  <text x="475" y="175" textAnchor="middle" fill="#fff" fontWeight="bold" fontSize="8">DE</text>
-                  
-                  {/* Latvia */}
-                  <path
-                    d="M490,135 L510,135 L510,150 L490,150 Z"
-                    fill={highlightedCountries.includes("latvia") ? "#4CAF50" : "#ccc"}
-                    stroke="#fff"
-                    strokeWidth="2"
-                  />
-                  <text x="500" y="145" textAnchor="middle" fill="#fff" fontWeight="bold" fontSize="8">LV</text>
-                  
-                  {/* Asia */}
-                  <path
-                    d="M550,150 L650,150 L650,250 L550,250 Z"
-                    fill="#ccc"
-                    stroke="#fff"
-                    strokeWidth="2"
-                  />
-                  
-                  {/* Australia */}
-                  <path
-                    d="M650,300 L720,300 L720,350 L650,350 Z"
-                    fill="#ccc"
-                    stroke="#fff"
-                    strokeWidth="2"
-                  />
-                </svg>
-
+                />
+                
                 <div style={{ marginTop: "20px" }}>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "20px", flexWrap: "wrap" }}>
                     <div style={{ display: "flex", alignItems: "center" }}>
