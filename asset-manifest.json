@@ -1,22 +1,29 @@
 {
   "files": {
     "main.css": "/hearts-of-english/static/css/main.e6c13ad2.css",
-    "main.js": "/hearts-of-english/static/js/main.78b8290c.js",
+    "main.js": "/hearts-of-english/static/js/main.3ff11fe8.js",
     "static/js/453.2fe8f70a.chunk.js": "/hearts-of-english/static/js/453.2fe8f70a.chunk.js",
+    "static/media/IMG_8509.jpg": "/hearts-of-english/static/media/IMG_8509.c98757b4e6a0f0012dc6.jpg",
     "static/media/IMG_8505.jpg": "/hearts-of-english/static/media/IMG_8505.dca01ebda179a5185d17.jpg",
+    "static/media/IMG_8506.jpg": "/hearts-of-english/static/media/IMG_8506.ea365750c78b01ec83d3.jpg",
     "static/media/IMG_8507.jpg": "/hearts-of-english/static/media/IMG_8507.f9249ce3feaf81373893.jpg",
-    "static/media/teacher.jpg": "/hearts-of-english/static/media/teacher.123c5ec9972a947445a1.jpg",
+    "static/media/IMG_8513.jpg": "/hearts-of-english/static/media/IMG_8513.d11d946b6e43c0bdc8e6.jpg",
+    "static/media/IMG_8514.jpg": "/hearts-of-english/static/media/IMG_8514.ce22f132f396bbe848ab.jpg",
     "static/media/heart_of_english_logo.svg": "/hearts-of-english/static/media/heart_of_english_logo.1845ab8986f0303fac1c0d23e3ea8b84.svg",
     "static/media/IMG_8510.jpg": "/hearts-of-english/static/media/IMG_8510.2a8c8d8cf36cc6661e3c.jpg",
+    "static/media/office-hoe.jpeg": "/hearts-of-english/static/media/office-hoe.d81b562f29ed80545e91.jpeg",
+    "static/media/IMG_8508.jpg": "/hearts-of-english/static/media/IMG_8508.7dcea8bc3bbeea44c389.jpg",
+    "static/media/office-hoe3.jpeg": "/hearts-of-english/static/media/office-hoe3.0aacb2e2cf31dc33a615.jpeg",
     "static/media/classroom.jpg": "/hearts-of-english/static/media/classroom.15b1c058becf2d95bcba.jpg",
-    "static/media/students.jpg": "/hearts-of-english/static/media/students.488fbb2bb3f13a10314a.jpg",
+    "static/media/IMG_8512.jpg": "/hearts-of-english/static/media/IMG_8512.958c6c9c3e8b22243caa.jpg",
+    "static/media/office2-hoe.jpeg": "/hearts-of-english/static/media/office2-hoe.d481bf498c65ab4bdec2.jpeg",
     "index.html": "/hearts-of-english/index.html",
     "main.e6c13ad2.css.map": "/hearts-of-english/static/css/main.e6c13ad2.css.map",
-    "main.78b8290c.js.map": "/hearts-of-english/static/js/main.78b8290c.js.map",
+    "main.3ff11fe8.js.map": "/hearts-of-english/static/js/main.3ff11fe8.js.map",
     "453.2fe8f70a.chunk.js.map": "/hearts-of-english/static/js/453.2fe8f70a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.78b8290c.js"
+    "static/js/main.3ff11fe8.js"
   ]
 }
